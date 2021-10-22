@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(90deg, grey, whitesmoke);
+}
+.container {
+  background: white;
+  width: 75vh;
+  height: 75.5vh;
+  margin: auto;
+  margin-top: 15vh;
+  box-shadow: 1px 1px 1px 1px grey;
+  font-family: "Poppins", sans-serif;
+}
+.row1 {
+  display: flex;
+}
+.box1 {
+  border: 0.2px solid black;
+  width: 25vh;
+  height: 25vh;
+}
+.box2 {
+  border: 0.2px solid black;
+  width: 25vh;
+  height: 25vh;
+}
+.box3 {
+  border: 0.2px solid black;
+  width: 25vh;
+  height: 25vh;
+}
+.row2 {
+  display: flex;
+}
+.box4 {
+  border: 0.2px solid black;
+  width: 25vh;
+  height: 25vh;
+}
+.box5 {
+  border: 0.2px solid black;
+  width: 25vh;
+  height: 25vh;
+}
+.box6 {
+  border: 0.2px solid black;
+  width: 25vh;
+  height: 25vh;
+}
+.row3 {
+  display: flex;
+}
+.box7 {
+  border: 0.2px solid black;
+  width: 25vh;
+  height: 25vh;
+}
+.box8 {
+  border: 0.2px solid black;
+  width: 25vh;
+  height: 25vh;
+}
+.box9 {
+  border: 0.2px solid black;
+  width: 25vh;
+  height: 25vh;
+}
+
+.box1-input {
+  font-size: 4rem;
+  margin-top: 18%;
+  margin-left: 37%;
+  pointer-events: none;
+}
+.gameover {
+  display: none;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid yellowgreen;
+  box-shadow: 1px 2px 1px 1px grey;
+  color: black;
+  font-weight: bolder;
+  position: fixed;
+  z-index: 1;
+
+  margin-left: 33.25%;
+  margin-top: 0.7%;
+  height: 20vh;
+  width: 20vh;
+  padding: 150px 150px;
+}
+.reload-gameover {
+  cursor: pointer;
+}
